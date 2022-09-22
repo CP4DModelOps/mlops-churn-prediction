@@ -1,0 +1,169 @@
+
+Cell 4:
+Current branch     : dev
+Current environment: dev
+
+Cell 5:
+
+Cell 7:
+Index(['ID', 'LONGDISTANCE', 'INTERNATIONAL', 'LOCAL', 'DROPPED', 'PAYMETHOD',
+       'LOCALBILLTYPE', 'LONGDISTANCEBILLTYPE', 'USAGE', 'RATEPLAN', 'GENDER',
+       'STATUS', 'CHILDREN', 'ESTINCOME', 'CAROWNER', 'AGE', 'CREDITCARD',
+       'DOB', 'ADDRESS_1', 'CITY', 'STATE', 'ZIP', 'ZIP4', 'LONGITUDE',
+       'LATITUDE', 'CHURN'],
+      dtype='object')
+
+Cell 8:
+
+Cell 11:
+
+Cell 13:
+
+Cell 16:
+
+Cell 17:
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.95      0.97       168
+         1.0       0.93      0.99      0.96       115
+
+    accuracy                           0.97       283
+   macro avg       0.96      0.97      0.97       283
+weighted avg       0.97      0.97      0.97       283
+
+
+Cell 21:
+
+Cell 25:
+Deployment space with name churn-dev already exists . .
+Using the existing space
+
+Cell 26:
+-----------------------------  ------------------------------------  ----
+NAME                           ASSET_ID                              TYPE
+default_py3.6                  0062b8c9-8b7d-44a0-a9b9-46c416adcbd9  base
+runtime-22.1-r3.6              018ebea5-1d1f-5fec-b93e-5e2ab30e7f38  base
+kernel-spark3.2-scala2.12      020d69ce-7ac1-5e68-ac1a-31189867356a  base
+pytorch-onnx_1.3-py3.7-edt     069ea134-3346-5748-b513-49120e15d288  base
+scikit-learn_0.20-py3.6        09c5a1d0-9c1e-4473-a344-eb7b665ff687  base
+spark-mllib_3.0-scala_2.12     09f4cff0-90a7-5899-b9ed-1ef348aebdee  base
+pytorch-onnx_rt22.1-py3.9      0b848dd4-e681-5599-be41-b5f6fccc6471  base
+ai-function_0.1-py3.6          0cdb0f1e-5376-4f4d-92dd-da3b69aa9bda  base
+shiny-r3.6                     0e6e79df-875e-4f24-8ae9-62dcc2148306  base
+pytorch_1.1-py3.6              10ac12d6-6b30-4ccd-8392-3e922c096a92  base
+runtime-22.1-py3.9             12b83a17-24d8-5082-900f-0ab31fbfd3cb  base
+scikit-learn_0.22-py3.6        154010fa-5b3b-4ac1-82af-4d5ee5abbc85  base
+pytorch-onnx_1.7-py3.8-edt     1b199910-c7d5-5af4-b8f1-e86b760f9779  base
+default_r3.6                   1b70aec3-ab34-4b87-8aa0-a4a3c8296a36  base
+pytorch-onnx_rt22.1-py3.9-edt  1d362186-7ad5-5b59-8b6c-9d0880bde37f  base
+spark-mllib_3.2                20047f72-0a98-58c7-9ff5-a77b012eb8f5  base
+runtime-22.1-py3.9-cuda        26215f05-08c3-5a41-a1b0-da66306ce658  base
+do_py3.8                       295addb5-9ef9-547e-9bf4-92ae3563e720  base
+autoai-ts_3.8-py3.8            2aa0c932-798f-5ae9-abd6-15e0c2402fb5  base
+tensorflow_1.15-py3.6          2b73a275-7cbf-420b-a912-eae7f436e0bc  base
+pytorch_1.2-py3.6              2c8ef57d-2687-4b7d-acce-01f94976dac1  base
+spark-mllib_2.3                2e51f700-bca0-4b0d-88dc-5c6791338875  base
+pytorch-onnx_1.1-py3.6-edt     32983cea-3f32-4400-8965-dde874a8d67e  base
+spark-mllib_3.0-py37           36507ebe-8770-55ba-ab2a-eafe787600e9  base
+xgboost_0.82-py3.6             39e31acd-5f30-41dc-ae44-60233c80306e  base
+pytorch-onnx_1.2-py3.6-edt     40589d0e-7019-4e28-8daa-fb03b6f4fe12  base
+autoai-ts_rt22.1-py3.9         4269d26e-07ba-5d40-8f66-2d495b0c71f7  base
+autoai-obm_3.0                 42b92e18-d9ab-567f-988a-4240ba1ed5f7  base
+ai-function_0.2-py3.6          435bfa8f-ddae-549a-826a-894368887231  base
+pmml-3.0_4.3                   493bcb95-16f1-5bc5-bee8-81b8af80e9c7  base
+spark-mllib_2.4-r_3.6          49403dff-92e9-4c87-a3d7-a42d0021c095  base
+xgboost_0.90-py3.6             4ff8d6c2-1343-4c18-85e1-689c965304d3  base
+pytorch-onnx_1.1-py3.6         50f95b2a-bc16-43bb-bc94-b0bed208c60b  base
+autoai-ts_3.9-py3.8            52c57136-80fa-572e-8728-a5e7cbb42cde  base
+spark-mllib_2.4-scala_2.11     55a70f99-7320-4be5-9fb9-9edb5a443af5  base
+spark-mllib_3.0                5c1b0ca2-4977-5c2e-9439-ffd44ea8ffe9  base
+autoai-obm_2.0                 5c2e37fa-80b8-5e77-840f-d912469614ee  base
+spss-modeler_18.1              5c3cad7e-507f-4b2a-a9a3-ab53a21dee8b  base
+cuda-py3.8                     5d3232bf-c86b-5df4-a2cd-7bb870a1cd4e  base
+autoai-kb_3.1-py3.7            632d4b22-10aa-5180-88f0-f52dfb6444d7  base
+pytorch-onnx_1.7-py3.8         634d3cdc-b562-5bf9-a2d4-ea90a478456b  base
+tensorflow_2.4-py3.7           65e171d7-72d1-55d9-8ebb-f813d620c9bb  base
+spss-modeler_18.2              687eddc9-028a-4117-b9dd-e57b36f1efa5  base
+pytorch-onnx_1.2-py3.6         692a6a4d-2c4d-45ff-a1ed-b167ee55469a  base
+spark-mllib_2.4-py37           7abc992b-b685-532b-a122-a396a3cdbaab  base
+caffe_1.0-py3.6                7bb3dbe2-da6e-4145-918d-b6d84aa93b6b  base
+pytorch-onnx_1.7-py3.7         812c6631-42b7-5613-982b-02098e6c909c  base
+cuda-py3.6                     82c79ece-4d12-40e6-8787-a7b9e0f62770  base
+hybrid_0.1                     8c1a58c6-62b5-4dc4-987a-df751c2756b6  base
+pytorch-onnx_1.3-py3.7         8d5d8a87-a912-54cf-81ec-3914adaa988d  base
+-----------------------------  ------------------------------------  ----
+Note: Only first 50 records were displayed. To display more use 'limit' parameter.
+
+Cell 28:
+------------------------------------  --------------  ------------------------  ----------------
+ID                                    NAME            CREATED                   TYPE
+8f24a829-63a8-46e3-a848-9e9a75dd196d  churn_pipeline  2022-09-22T21:55:31.002Z  scikit-learn_1.0
+f2c10b56-2700-4a83-b8dc-6cb881942f5b  churn_pipeline  2022-09-22T21:48:34.002Z  scikit-learn_1.0
+------------------------------------  --------------  ------------------------  ----------------
+
+Cell 29:
+
+Cell 30:
+This method is deprecated, please use get_model_id()
+
+
+
+#######################################################################################
+
+Synchronous deployment creation for uid: '8f24a829-63a8-46e3-a848-9e9a75dd196d' started
+
+#######################################################################################
+
+
+initializing
+
+Note: online_url is deprecated and will be removed in a future release. Use serving_urls instead.
+
+ready
+
+
+------------------------------------------------------------------------------------------------
+Successfully finished deployment creation, deployment_uid='d7ad3564-0eac-4e66-bdb0-cfd94fc499b8'
+------------------------------------------------------------------------------------------------
+
+
+
+Cell 31:
+https://internal-nginx-svc.cpd-instance.svc.cluster.local:12443/ml/v4/deployments/d7ad3564-0eac-4e66-bdb0-cfd94fc499b8/predictions
+
+Cell 33:
+Deployment a9fb4be6-0e90-4a1c-9a21-328092f32823 will be deleted
+
+Cell 35:
+Model f2c10b56-2700-4a83-b8dc-6cb881942f5b will be deleted
+
+Cell 37:
+------------------------------------  --------------  ------------------------  ----------------
+ID                                    NAME            CREATED                   TYPE
+8f24a829-63a8-46e3-a848-9e9a75dd196d  churn_pipeline  2022-09-22T21:55:31.002Z  scikit-learn_1.0
+------------------------------------  --------------  ------------------------  ----------------
+------------------------------------  -------------------------  -----  ------------------------
+GUID                                  NAME                       STATE  CREATED
+d7ad3564-0eac-4e66-bdb0-cfd94fc499b8  churn_pipeline_deployment  ready  2022-09-22T21:55:35.697Z
+------------------------------------  -------------------------  -----  ------------------------
+
+Cell 40:
+{
+  "predictions": [
+    {
+      "fields": [
+        "prediction",
+        "probability"
+      ],
+      "values": [
+        [
+          0.0,
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      ]
+    }
+  ]
+}
