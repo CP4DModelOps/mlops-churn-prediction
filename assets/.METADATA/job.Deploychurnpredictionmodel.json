@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "name": "Deploy-churn-prediction-model",
+    "asset_type": "job",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2023-06-20T11:24:01Z",
+    "created": 1687260241530,
+    "asset_id": "job.Deploychurnpredictionmodel",
+    "asset_attributes": [
+      "job"
+    ]
+  },
+  "entity": {
+    "job": {
+      "asset_ref_type": "notebook",
+      "configuration": {
+        "env_id": "rt222py",
+        "file_ref": "assets/notebooks/customer-churn-prediction.ipynb",
+        "entrypoint": "",
+        "env_type": "notebook",
+        "env_variables": []
+      },
+      "last_run_initiator": "deprecated field",
+      "last_run_time": "deprecated field",
+      "last_run_status": "deprecated field",
+      "last_run_status_timestamp": 0,
+      "future_scheduled_runs": [],
+      "enable_notifications": true,
+      "project_name": "mlops-dev",
+      "schedule_id": "",
+      "schedule_creator_id": ""
+    }
+  },
+  "attachments": []
+}
