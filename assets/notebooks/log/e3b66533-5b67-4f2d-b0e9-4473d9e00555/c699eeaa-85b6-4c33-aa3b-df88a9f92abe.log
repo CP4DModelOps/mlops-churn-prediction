@@ -1,0 +1,418 @@
+
+Cell 2:
+
+Cell 4:
+Current branch     : dev
+Current environment: dev
+
+Cell 5:
+
+Cell 6:
+
+Cell 7:
+Index(['ID', 'LONGDISTANCE', 'INTERNATIONAL', 'LOCAL', 'DROPPED', 'PAYMETHOD',
+       'LOCALBILLTYPE', 'LONGDISTANCEBILLTYPE', 'USAGE', 'RATEPLAN', 'GENDER',
+       'STATUS', 'CHILDREN', 'ESTINCOME', 'CAROWNER', 'AGE', 'CREDITCARD',
+       'DOB', 'ADDRESS_1', 'CITY', 'STATE', 'ZIP', 'ZIP4', 'LONGITUDE',
+       'LATITUDE', 'CHURN'],
+      dtype='object')
+
+Cell 8:
+
+Cell 10:
+
+Cell 11:
+
+Cell 12:
+
+Cell 13:
+
+Cell 14:
+
+Cell 15:
+
+Cell 16:
+
+Cell 17:
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.95      0.97       168
+         1.0       0.93      0.97      0.95       115
+
+    accuracy                           0.96       283
+   macro avg       0.96      0.96      0.96       283
+weighted avg       0.96      0.96      0.96       283
+
+
+Cell 20:
+
+Cell 21:
+
+Cell 22:
+
+Cell 23:
+
+Cell 25:
+Deployment space with name churn-dev already exists . .
+Using the existing space
+
+Cell 26:
+-------------------------------  ------------------------------------  ----  ------------  ------------------------------
+NAME                             ID                                    TYPE  STATE         REPLACEMENT
+default_py3.6                    0062b8c9-8b7d-44a0-a9b9-46c416adcbd9  base  unsupported   runtime-22.2-py3.10
+runtime-22.1-r3.6                018ebea5-1d1f-5fec-b93e-5e2ab30e7f38  base  deprecated    runtime-22.2-r4.2
+kernel-spark3.2-scala2.12        020d69ce-7ac1-5e68-ac1a-31189867356a  base  not_provided
+pytorch-onnx_1.3-py3.7-edt       069ea134-3346-5748-b513-49120e15d288  base  not_provided
+scikit-learn_0.20-py3.6          09c5a1d0-9c1e-4473-a344-eb7b665ff687  base  unsupported   runtime-22.2-py3.10
+spark-mllib_3.0-scala_2.12       09f4cff0-90a7-5899-b9ed-1ef348aebdee  base  unsupported
+pytorch-onnx_rt22.1-py3.9        0b848dd4-e681-5599-be41-b5f6fccc6471  base  deprecated    pytorch-onnx_rt22.2-py3.10
+ai-function_0.1-py3.6            0cdb0f1e-5376-4f4d-92dd-da3b69aa9bda  base  unsupported   runtime-22.2-py3.10
+shiny-r3.6                       0e6e79df-875e-4f24-8ae9-62dcc2148306  base  deprecated    rstudio_r4.2
+pytorch_1.1-py3.6                10ac12d6-6b30-4ccd-8392-3e922c096a92  base  unsupported   runtime-22.2-py3.10
+autoai-kb_rt22.2-py3.10          125b6d9a-5b1f-5e8d-972a-b251688ccf40  base  supported
+runtime-22.1-py3.9               12b83a17-24d8-5082-900f-0ab31fbfd3cb  base  deprecated    runtime-22.2-py3.10
+kernel-spark3.3-py3.10           147e6777-ccd1-5886-8571-5356abc20839  base  not_provided
+scikit-learn_0.22-py3.6          154010fa-5b3b-4ac1-82af-4d5ee5abbc85  base  unsupported   runtime-22.2-py3.10
+pytorch-onnx_1.7-py3.8-edt       1b199910-c7d5-5af4-b8f1-e86b760f9779  base  unsupported   pytorch-onnx_rt22.2-py3.10-edt
+default_r3.6                     1b70aec3-ab34-4b87-8aa0-a4a3c8296a36  base  deprecated    runtime-22.2-r4.2
+kernel-spark3.3-r3.6             1c9e5454-f216-59dd-a20e-474a5cdf5988  base  not_provided
+pytorch-onnx_rt22.1-py3.9-edt    1d362186-7ad5-5b59-8b6c-9d0880bde37f  base  deprecated    pytorch-onnx_rt22.2-py3.10-edt
+spark-mllib_3.2                  20047f72-0a98-58c7-9ff5-a77b012eb8f5  base  deprecated    spark-mllib_3.3
+runtime-22.1-py3.9-cuda          26215f05-08c3-5a41-a1b0-da66306ce658  base  deprecated    runtime-22.2-py3.10-cuda
+do_py3.8                         295addb5-9ef9-547e-9bf4-92ae3563e720  base  not_provided
+autoai-ts_3.8-py3.8              2aa0c932-798f-5ae9-abd6-15e0c2402fb5  base  unsupported   autoai-ts_rt22.2-py3.10
+tensorflow_1.15-py3.6            2b73a275-7cbf-420b-a912-eae7f436e0bc  base  unsupported   runtime-22.2-py3.10
+kernel-spark3.3-py3.9            2b7961e2-e3b1-5a8c-a491-482c8368839a  base  not_provided
+pytorch_1.2-py3.6                2c8ef57d-2687-4b7d-acce-01f94976dac1  base  unsupported   runtime-22.2-py3.10
+spark-mllib_2.3                  2e51f700-bca0-4b0d-88dc-5c6791338875  base  unsupported   spark-mllib_3.3
+pytorch-onnx_1.1-py3.6-edt       32983cea-3f32-4400-8965-dde874a8d67e  base  unsupported   runtime-22.2-py3.10
+spark-mllib_3.0-py37             36507ebe-8770-55ba-ab2a-eafe787600e9  base  unsupported   spark-mllib_3.3
+autoai-ts_rt22.2-py3.10          396b2e83-0953-5b86-9a55-7ce1628a406f  base  supported
+xgboost_0.82-py3.6               39e31acd-5f30-41dc-ae44-60233c80306e  base  unsupported   runtime-22.2-py3.10
+pytorch-onnx_1.2-py3.6-edt       40589d0e-7019-4e28-8daa-fb03b6f4fe12  base  unsupported   runtime-22.2-py3.10
+pytorch-onnx_rt22.2-py3.10       40e73f55-783a-5535-b3fa-0c8b94291431  base  supported
+autoai-ts_rt22.1-py3.9           4269d26e-07ba-5d40-8f66-2d495b0c71f7  base  deprecated    autoai-ts_rt22.2-py3.10
+autoai-obm_3.0                   42b92e18-d9ab-567f-988a-4240ba1ed5f7  base  unsupported   autoai-obm_3.2
+rstudio_r4.2                     42c36a39-fcc1-5117-8ff6-1d4523e0d6a6  base  supported
+ai-function_0.2-py3.6            435bfa8f-ddae-549a-826a-894368887231  base  unsupported   runtime-22.2-py3.10
+pmml-3.0_4.3                     493bcb95-16f1-5bc5-bee8-81b8af80e9c7  base  supported
+spark-mllib_2.4-r_3.6            49403dff-92e9-4c87-a3d7-a42d0021c095  base  unsupported   spark-mllib_3.3
+xgboost_0.90-py3.6               4ff8d6c2-1343-4c18-85e1-689c965304d3  base  unsupported   runtime-22.2-py3.10
+pytorch-onnx_1.1-py3.6           50f95b2a-bc16-43bb-bc94-b0bed208c60b  base  unsupported   runtime-22.2-py3.10
+autoai-ts_3.9-py3.8              52c57136-80fa-572e-8728-a5e7cbb42cde  base  unsupported   autoai-ts_rt22.2-py3.10
+spark-mllib_2.4-scala_2.11       55a70f99-7320-4be5-9fb9-9edb5a443af5  base  unsupported   spark-mllib_3.3
+spark-mllib_3.0                  5c1b0ca2-4977-5c2e-9439-ffd44ea8ffe9  base  unsupported   spark-mllib_3.3
+autoai-obm_2.0                   5c2e37fa-80b8-5e77-840f-d912469614ee  base  unsupported   autoai-obm_3.2
+spss-modeler_18.1                5c3cad7e-507f-4b2a-a9a3-ab53a21dee8b  base  supported
+cuda-py3.8                       5d3232bf-c86b-5df4-a2cd-7bb870a1cd4e  base  not_provided
+pytorch-onnx_rt22.2-py3.10-dist  61740dc9-19ed-563c-bbe4-925f38a81478  base  supported
+autoai-kb_3.1-py3.7              632d4b22-10aa-5180-88f0-f52dfb6444d7  base  not_provided
+pytorch-onnx_1.7-py3.8           634d3cdc-b562-5bf9-a2d4-ea90a478456b  base  unsupported   pytorch-onnx_rt22.2-py3.10
+kernel-spark3.3-r4.2             65691379-8334-5b81-9d22-a9b77b3c2f8b  base  not_provided
+-------------------------------  ------------------------------------  ----  ------------  ------------------------------
+Note: Only first 50 records were displayed. To display more use 'limit' parameter.
+
+Cell 27:
+Traceback (most recent call last):
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py", line 245, in _save_scikit_pipeline_model
+    model_artifact = self._create_pipeline_model(artifact, query_param)
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py", line 505, in _create_pipeline_model
+    model_artifact = self._create_pipeline_model_v4_cloud(model_artifact, query_param)
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py", line 1018, in _create_pipeline_model_v4_cloud
+    model_output = self.repository_api.ml_assets_model_creation_v4_cloud(model_input, query_param,headers)
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/apis/repository_api.py", line 275, in ml_assets_model_creation_v4_cloud
+    (data) = self.ml_assets_model_creation_v4_cloud_with_http_info(models_input,query_param, headers, **kwargs)
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/apis/repository_api.py", line 348, in ml_assets_model_creation_v4_cloud_with_http_info
+    return self.api_client.call_api(resource_path, 'POST',
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/api_client.py", line 359, in call_api
+    return self.__call_api(resource_path, method,
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/api_client.py", line 179, in __call_api
+    response_data = self.request(method, url,
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/api_client.py", line 394, in request
+    return self.rest_client.POST(url,
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/rest.py", line 200, in POST
+    return self.request("POST", url,
+  File "/opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/rest.py", line 172, in request
+    raise ApiException(http_resp=r)
+ibm_watson_machine_learning.libs.repo.swagger_client.rest.ApiException: (500)
+Reason: Internal Server Error
+HTTP response headers: HTTPHeaderDict({'Date': 'Tue, 20 Jun 2023 11:24:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '459', 'Connection': 'keep-alive', 'Server': '---', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'})
+HTTP response body: {
+  "trace": "218dkep0c07eu9fr2fyrd0gdb81770dp767m",
+  "errors": [{
+    "code": "unknown_error",
+    "message": "An unknown error occurred (Illegal URI reference: Invalid input ' ', expected '/', 'EOI', '#', '?' or pchar (line 1, column 32): /v2/software_specifications/Not Found?space_id=16d17419-3e70-4ee8-9724-b5f476153d46\n                               ^)",
+    "more_info": "https://cloud.ibm.com/apidocs/machine-learning"
+  }],
+  "status_code": "500"
+}
+
+
+
+Publishing model failed.
+Reason: (500)
+Reason: Internal Server Error
+HTTP response headers: HTTPHeaderDict({'Date': 'Tue, 20 Jun 2023 11:24:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '459', 'Connection': 'keep-alive', 'Server': '---', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'})
+HTTP response body: {
+  "trace": "218dkep0c07eu9fr2fyrd0gdb81770dp767m",
+  "errors": [{
+    "code": "unknown_error",
+    "message": "An unknown error occurred (Illegal URI reference: Invalid input ' ', expected '/', 'EOI', '#', '?' or pchar (line 1, column 32): /v2/software_specifications/Not Found?space_id=16d17419-3e70-4ee8-9724-b5f476153d46\n                               ^)",
+    "more_info": "https://cloud.ibm.com/apidocs/machine-learning"
+  }],
+  "status_code": "500"
+}
+
+
+
+---------------------------------------------------------------------------
+ApiException                              Traceback (most recent call last)
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/models.py:2679, in Models._publish_from_object_cloud(self, model, meta_props, training_data, training_target, pipeline, feature_names, label_column_names, project_id)
+   2678 query_param_for_repo_client = self._client._params()
+-> 2679 saved_model = self._client.repository._ml_repository_client.models.save(model_artifact,
+   2680                                                                         query_param=query_param_for_repo_client)
+   2681 return self.get_details(u'{}'.format(saved_model.uid))
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py:204, in ModelCollection.save(self, artifact, query_param)
+    203 if artifact.meta.prop(MetaNames.TYPE).startswith("scikit-learn"):
+--> 204     return self._save_scikit_pipeline_model(artifact, query_param)
+    205 elif artifact.meta.prop(MetaNames.TYPE).startswith("xgboost"):
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py:257, in ModelCollection._save_scikit_pipeline_model(self, artifact, query_param)
+    256 print(traceback.format_exc())
+--> 257 raise e
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py:245, in ModelCollection._save_scikit_pipeline_model(self, artifact, query_param)
+    244 if artifact.uid is None:
+--> 245     model_artifact = self._create_pipeline_model(artifact, query_param)
+    246 else:
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py:505, in ModelCollection._create_pipeline_model(self, model_artifact, query_param)
+    504 def _create_pipeline_model(self, model_artifact, query_param=None):
+--> 505     model_artifact = self._create_pipeline_model_v4_cloud(model_artifact, query_param)
+    506     return model_artifact
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/mlrepositoryclient/model_collection.py:1018, in ModelCollection._create_pipeline_model_v4_cloud(self, model_artifact, query_param)
+   1016 headers = self.client.api_client.default_headers
+-> 1018 model_output = self.repository_api.ml_assets_model_creation_v4_cloud(model_input, query_param,headers)
+   1019 if model_output is not None:
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/apis/repository_api.py:275, in RepositoryApi.ml_assets_model_creation_v4_cloud(self, models_input, query_param, headers, **kwargs)
+    274 else:
+--> 275     (data) = self.ml_assets_model_creation_v4_cloud_with_http_info(models_input,query_param, headers, **kwargs)
+    276     return data
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/apis/repository_api.py:348, in RepositoryApi.ml_assets_model_creation_v4_cloud_with_http_info(self, models_input, query_param, headers, **kwargs)
+    346 auth_settings = None
+--> 348 return self.api_client.call_api(resource_path, 'POST',
+    349                                     path_params,
+    350                                     query_params,
+    351                                     header_params,
+    352                                     body=body_params,
+    353                                     post_params=form_params,
+    354                                     files=local_var_files,
+    355                                     response_type='MlAssetsCreateModelOutput',
+    356                                     auth_settings=auth_settings,
+    357                                     callback=params.get('callback'),
+    358                                     _return_http_data_only=params.get('_return_http_data_only'))
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/api_client.py:359, in ApiClient.call_api(self, resource_path, method, path_params, query_params, header_params, body, post_params, files, response_type, auth_settings, callback, _return_http_data_only)
+    358 if callback is None:
+--> 359     return self.__call_api(resource_path, method,
+    360                            path_params, query_params, header_params,
+    361                            body, post_params, files,
+    362                            response_type, auth_settings, callback, _return_http_data_only)
+    363 else:
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/api_client.py:179, in ApiClient.__call_api(self, resource_path, method, path_params, query_params, header_params, body, post_params, files, response_type, auth_settings, callback, _return_http_data_only)
+    176 # perform request and return response
+    177 #self.logger.info("Request to service with global transaction id: ", reqId)
+--> 179 response_data = self.request(method, url,
+    180                              query_params=query_params,
+    181                              headers=header_params,
+    182                              post_params=post_params, body=body)
+    184 self.last_response = response_data
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/api_client.py:394, in ApiClient.request(self, method, url, query_params, headers, post_params, body)
+    393 elif method == "POST":
+--> 394     return self.rest_client.POST(url,
+    395                                  query_params=query_params,
+    396                                  headers=headers,
+    397                                  post_params=post_params,
+    398                                  body=body)
+    399 elif method == "PUT":
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/rest.py:200, in RESTClientObject.POST(self, url, headers, query_params, post_params, body)
+    199 def POST(self, url, headers=None, query_params=None, post_params=None, body=None):
+--> 200     return self.request("POST", url,
+    201                         headers=headers,
+    202                         query_params=query_params,
+    203                         post_params=post_params,
+    204                         body=body)
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/libs/repo/swagger_client/rest.py:172, in RESTClientObject.request(self, method, url, query_params, headers, body, post_params)
+    171 if r.status not in range(200, 206):
+--> 172     raise ApiException(http_resp=r)
+    174 return r
+
+ApiException: (500)
+Reason: Internal Server Error
+HTTP response headers: HTTPHeaderDict({'Date': 'Tue, 20 Jun 2023 11:24:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '459', 'Connection': 'keep-alive', 'Server': '---', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'})
+HTTP response body: {
+  "trace": "218dkep0c07eu9fr2fyrd0gdb81770dp767m",
+  "errors": [{
+    "code": "unknown_error",
+    "message": "An unknown error occurred (Illegal URI reference: Invalid input ' ', expected '/', 'EOI', '#', '?' or pchar (line 1, column 32): /v2/software_specifications/Not Found?space_id=16d17419-3e70-4ee8-9724-b5f476153d46\n                               ^)",
+    "more_info": "https://cloud.ibm.com/apidocs/machine-learning"
+  }],
+  "status_code": "500"
+}
+
+
+During handling of the above exception, another exception occurred:
+
+WMLClientError                            Traceback (most recent call last)
+Input In [22], in <cell line: 9>()
+      1 software_spec_uid = client.software_specifications.get_uid_by_name('runtime-22.1-py3.09')
+      3 metadata = {
+      4     client.repository.ModelMetaNames.NAME: model_name,
+      5     client.repository.ModelMetaNames.SOFTWARE_SPEC_UID: software_spec_uid,
+      6     client.repository.ModelMetaNames.TYPE: "scikit-learn_1.0"
+      7 }
+----> 9 stored_model_details = client.repository.store_model(pipeline,
+     10                                                meta_props=metadata,
+     11                                                training_data=X_train,
+     12                                                training_target=y_train)
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/repository.py:174, in Repository.store_model(self, model, meta_props, training_data, training_target, pipeline, feature_names, label_column_names, subtrainingId, round_number, experiment_metadata, training_id)
+    170 @inherited_docstring(Models.store, {'store()': 'store_model()'})
+    171 def store_model(self, model, meta_props=None, training_data=None, training_target=None, pipeline=None,
+    172                 feature_names=None, label_column_names=None,subtrainingId=None, round_number=None,
+    173                 experiment_metadata=None, training_id=None):
+--> 174     return self._client._models.store(model, meta_props=meta_props, training_data=training_data,
+    175                                       training_target=training_target, pipeline=pipeline,
+    176                                       feature_names=feature_names, label_column_names=label_column_names,
+    177                                       subtrainingId=subtrainingId, round_number=round_number,
+    178                                       experiment_metadata=experiment_metadata, training_id=training_id)
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/models.py:1682, in Models.store(self, model, meta_props, training_data, training_target, pipeline, version, artifactid, feature_names, label_column_names, subtrainingId, round_number, experiment_metadata, training_id)
+   1678         saved_model = self._client.repository.store_model(
+   1679             model=artifact_name,
+   1680             meta_props=new_meta_props)
+   1681     else:
+-> 1682         saved_model = self._publish_from_object_cloud(model=model,
+   1683                                                       meta_props=meta_props,
+   1684                                                       training_data=training_data,
+   1685                                                       training_target=training_target,
+   1686                                                       pipeline=pipeline,
+   1687                                                       feature_names=feature_names,
+   1688                                                       label_column_names=label_column_names)
+   1689 else:
+   1690     saved_model = self._publish_from_object(model=model,
+   1691                                             meta_props=meta_props,
+   1692                                             training_data=training_data,
+   (...)
+   1695                                             feature_names=feature_names,
+   1696                                             label_column_names=label_column_names)
+
+File /opt/conda/envs/Python-3.10-Premium/lib/python3.10/site-packages/ibm_watson_machine_learning/models.py:2684, in Models._publish_from_object_cloud(self, model, meta_props, training_data, training_target, pipeline, feature_names, label_column_names, project_id)
+   2681         return self.get_details(u'{}'.format(saved_model.uid))
+   2683 except Exception as e:
+-> 2684     raise WMLClientError(u'Publishing model failed.', e)
+
+WMLClientError: Publishing model failed.
+Reason: (500)
+Reason: Internal Server Error
+HTTP response headers: HTTPHeaderDict({'Date': 'Tue, 20 Jun 2023 11:24:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '459', 'Connection': 'keep-alive', 'Server': '---', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'})
+HTTP response body: {
+  "trace": "218dkep0c07eu9fr2fyrd0gdb81770dp767m",
+  "errors": [{
+    "code": "unknown_error",
+    "message": "An unknown error occurred (Illegal URI reference: Invalid input ' ', expected '/', 'EOI', '#', '?' or pchar (line 1, column 32): /v2/software_specifications/Not Found?space_id=16d17419-3e70-4ee8-9724-b5f476153d46\n                               ^)",
+    "more_info": "https://cloud.ibm.com/apidocs/machine-learning"
+  }],
+  "status_code": "500"
+}
+
+Cell 28:
+------------------------------------  --------------  ------------------------  ----------------  ----------  -------------------
+ID                                    NAME            CREATED                   TYPE              SPEC_STATE  SPEC_REPLACEMENT
+05756476-5f2e-4718-b2a4-2fe8f9c66a1c  churn_pipeline  2023-06-20T11:19:03.002Z  scikit-learn_1.0  deprecated  runtime-22.2-py3.10
+------------------------------------  --------------  ------------------------  ----------------  ----------  -------------------
+
+Cell 29:
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Input In [24], in <cell line: 1>()
+----> 1 stored_model_details
+
+NameError: name 'stored_model_details' is not defined
+Cell 30:
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Input In [25], in <cell line: 7>()
+      1 # Deploy the model
+      2 deploy_metadata = {
+      3     client.deployments.ConfigurationMetaNames.NAME: deployment_name,
+      4     client.deployments.ConfigurationMetaNames.ONLINE: {}
+      5 }
+----> 7 published_model_uid = client.repository.get_model_uid(stored_model_details)
+      8 created_deployment = client.deployments.create(published_model_uid, meta_props=deploy_metadata)
+
+NameError: name 'stored_model_details' is not defined
+Cell 31:
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Input In [26], in <cell line: 1>()
+----> 1 deployment_uid = client.deployments.get_uid(created_deployment)
+      2 scoring_endpoint = client.deployments.get_scoring_href(created_deployment)
+      3 print(scoring_endpoint)
+
+NameError: name 'created_deployment' is not defined
+Cell 33:
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Input In [27], in <cell line: 1>()
+      1 for deployment in client.deployments.get_details()['resources']:
+----> 2     if (deployment['metadata']['name']==deployment_name) and (deployment['metadata']['id'] != deployment_uid):
+      3         print('Deployment '+ deployment['metadata']['id'] + ' will be deleted')
+      4         client.deployments.delete(deployment['metadata']['id'])
+
+NameError: name 'deployment_uid' is not defined
+Cell 35:
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Input In [28], in <cell line: 1>()
+      1 for model in client.repository.get_model_details()['resources']:
+----> 2     if (model['metadata']['name']==model_name) and (model['metadata']['id'] != stored_model_details['metadata']['id']):
+      3         print('Model '+ model['metadata']['id'] + ' will be deleted')
+      4         client.repository.delete(model['metadata']['id'])
+
+NameError: name 'stored_model_details' is not defined
+Cell 37:
+------------------------------------  --------------  ------------------------  ----------------  ----------  -------------------
+ID                                    NAME            CREATED                   TYPE              SPEC_STATE  SPEC_REPLACEMENT
+05756476-5f2e-4718-b2a4-2fe8f9c66a1c  churn_pipeline  2023-06-20T11:19:03.002Z  scikit-learn_1.0  deprecated  runtime-22.2-py3.10
+------------------------------------  --------------  ------------------------  ----------------  ----------  -------------------
+
+------------------------------------  -------------------------  -----  ------------------------  -------------  ----------  -------------------
+GUID                                  NAME                       STATE  CREATED                   ARTIFACT_TYPE  SPEC_STATE  SPEC_REPLACEMENT
+3e88e609-d3e2-4d8c-8dd6-6d241a85ded9  churn_pipeline_deployment  ready  2023-06-20T11:19:17.714Z  model          deprecated  runtime-22.2-py3.10
+------------------------------------  -------------------------  -----  ------------------------  -------------  ----------  -------------------
+
+Cell 39:
+
+Cell 40:
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Input In [31], in <cell line: 1>()
+----> 1 predictions = client.deployments.score(deployment_uid, scoring_payload)
+      2 print(json.dumps(predictions, indent=2))
+
+NameError: name 'deployment_uid' is not defined
